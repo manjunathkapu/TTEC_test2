@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection CsvOption="true" Encoding="US-ASCII" EscapeType="CSV" FieldSeparatorType="Custom UTF8" FieldSeparatorValue="&quot;|&quot;" FilePath="C:/Users/srmma/Downloads/TEST_DATA_20 (1).txt" FirstLineCaption="true" Format="WINDOWS" HeaderValue="1" RowSeparatorValue="&quot;\n&quot;" Server="Localhost 127.0.0.1" TextEnclosure="&quot;\&quot;&quot;" UseHeader="true" dataPackage="_ssIiMp9QEeyStfBzYNtceA" name="Sample1" xmi:id="_ssIiMZ9QEeyStfBzYNtceA"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_ssIiMZ9QEeyStfBzYNtceA" name="default" xmi:id="_ssIiMp9QEeyStfBzYNtceA">
+    <ownedElement id="_iwNroJ9QEeyStfBzYNtceA" label="metadata" xmi:id="_ssIiM59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="NDCUPCHRI" length="11" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiNJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="IDTYPE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_ssIiNZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TRANCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiNp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SEQCODE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiN59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LABELERCODE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiOJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GENIDTYPE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiOZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GENIDNUMBER" length="9" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiOp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DEACLASSCODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiO59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="THERCLASSCODE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_ssIiPJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STATUSFLAG" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiPZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LOCALSYSTEM" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiPp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TEECODE" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiP59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FMTID" length="13" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Date" xmi:id="_ssIiQJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RXOTCIND" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiQZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TPARESTRICTIONCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiQp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MAINTDRUGCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiQ59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DISPUNITCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiRJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="UNITDOSE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiRZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RTOFADMIN" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiRp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="FORMTYPE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiR59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NUMSYSTEM" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiSJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SECONDIDTYPE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiSZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SECONDIDNUM" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiSp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MULTISOURCE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiS59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="BRANDCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiTJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REIMBURSEIND" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_ssIiTZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INTEXTCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiTp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SINGLECOMBOCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiT59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STORAGECONDITION" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiUJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STABILITYCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiUZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiUp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GPI" length="14" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Long" xmi:id="_ssIiU59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GPIGENNAME" length="58" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiVJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiVZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MANUNAME" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiVp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MANUABBREV" length="10" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiV59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRODDESCABBREV" length="25" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiWJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DRUGNAMECODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiWZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GPPC" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiWp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="JLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiW59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STRENGTH" length="3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_ssIiXJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="STRENGTHUOM" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiXZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DOSAGEFORM" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiXp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PACKAGESIZE" length="3" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_ssIiX59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PKGSIZEUOM" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiYJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PKGQTY" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Integer" xmi:id="_ssIiYZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="REPACKCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiYp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TOTALPKGQTY" length="3" pattern="&quot;dd-MM-yyyy&quot;" precision="2" talendType="id_Float" xmi:id="_ssIiY59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DESI" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiZJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PKGDESC" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiZZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NSNS" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiZp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NLNS" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiZ59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INNERPACK" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiaJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CLINICPACK" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiaZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiap9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWPINDCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIia59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWPPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_ssIibJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWPUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" precision="6" talendType="id_Float" xmi:id="_ssIibZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWPEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIibp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP1STPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIib59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP1STUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIicJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP1STEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIicZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP2NDPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIicp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP2NDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIic59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP2NDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIidJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WACUNITPRICE" length="8" pattern="&quot;dd-MM-yyyy&quot;" precision="7" talendType="id_Float" xmi:id="_ssIidZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIidp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DPPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIid59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DPUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIieJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DPEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIieZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP1STPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiep9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP1STUNITPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIie59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP1STEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIifJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP2NDPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIifZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP2NDUNITPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIifp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP2NDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIif59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="SLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIigJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFAPRICE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIigZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFAEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIigp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFA1STPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIig59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFA1STEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIihJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFA2NDPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIihZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HCFA2NDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIihp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIih59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBMONY" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiiJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBMAINT" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiiZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXTRADRUG" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_Character" xmi:id="_ssIiip9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NEWNDC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIii59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIijJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LSWLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIijZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRODNAME" length="25" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIijp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GCN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIij59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GC3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIikJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="CL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIikZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="INACTIVEDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIikp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIik59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WACEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIilJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC1STUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIilZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC1STEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIilp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC2NDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIil59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC2NDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIimJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="QLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIimZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ELASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIimp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MANUALUPDATE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIim59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWPEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIinJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWPPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" precision="4" talendType="id_Float" xmi:id="_ssIinZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWPUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" precision="6" talendType="id_Float" xmi:id="_ssIinp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP1STEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIin59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP1STPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIioJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP1STUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIioZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP2NDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiop9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP2NDPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIio59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP2NDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIipJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWPLASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIipZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GSN" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIipp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HICL" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIip59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HIC3" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiqJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="TC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiqZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DCC" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiqp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP3RDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiq59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP3RDPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIirJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP3RDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIirZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP4THEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIirp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP4THPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIir59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBAWP4THUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIisJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP3RDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIisZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP3RDPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIisp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP3RDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIis59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP4THEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIitJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP4THPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIitZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="AWP4THUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIitp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC3RDUNITPRICE" length="7" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIit59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC3RDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiuJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC4THUNITPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiuZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC4THEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiup9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP3RDEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiu59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP3RDPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIivJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP3RDUNITPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIivZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP4THEFFDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIivp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP4THPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiv59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DP4THUNITPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiwJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBUNITDOSE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiwZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DOLLARRANKCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiwp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="RXRANKCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiw59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRODUCTNAMEEXT" length="35" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIixJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="ALLERGYPATTERNCODE" length="4" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIixZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PPGINDICATORCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIixp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="HFPGINDICATORCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIix59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LABELERTYPECODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiyJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRICINGSPREADCODE" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiyZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="LIMITEDDISTCODE" length="2" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiyp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="EXTAHFSTHERCLASSCODE" length="8" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiy59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WACPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIizJ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC1STPKGPRICE" length="5" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIizZ9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC2NDPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIizp9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC3RDPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIiz59QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="WAC4THPKGPRICE" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi0J9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBFILE" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi0Z9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi0p9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NOAWPUPDATE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi059QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MANUALADD" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi1J9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBGPI" length="14" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi1Z9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBGPIGENNAME" length="58" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi1p9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBGPIFILE" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi159QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBGPISTATUS" length="1" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi2J9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="GPILASTCHANGE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi2Z9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NDCADDFILE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi2p9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="NDCADDDATE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi259QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRCMDDBFILE" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi3J9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="PRCMDDBDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi3Z9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DATMDDBFILE" length="18" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi3p9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DATMDDBDATE" length="23" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi359QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="MDDBTEECODE" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi4J9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+      <feature label="DDID" length="6" pattern="&quot;dd-MM-yyyy&quot;" talendType="id_String" xmi:id="_ssIi4Z9QEeyStfBzYNtceA" xsi:type="TalendMetadata:MetadataColumn"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_bb0a3ff8-fa5a-4b88-ac39-aa4aafc39386"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JajnAXtwcN0kstTzqCsatLhxj6J9RzC5nNJxr/XPTR80ax6gtGojJBhJbmYW2MLvokLvOs2Brjar&#13;
+qCsGDracKA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_36e42fa6-2816-49b4-b9c9-94c49ff66534"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wSZiJSlRzFR3HnJFM3ZM8a56IGHdNFfspo1X3J+lOIEyvCSvW/9I4p3fZJoRIkkw8OI1M8rB8HF4&#13;
+41wi28PwqA==</DigestValue></Reference></SignedInfo><SignatureValue>LS5XKSmbk8r96nwyg5a0vx1QphO58UOnj6/Twhdg3Yv3pyvTBsaga4qtxt4KxH8rPfAs9wMMiltX&#13;
+IsBO3uqh8w1BJlJm7irk0vOpqmNT0nWLyLUtbzucWjpM1bbhu1OnGKz8cQxnUk/7s6R2boEGGaTl&#13;
+Ke0+uvXX9KbuV/nOzl6Ci5AgSbtPImsMcQTbB5yz6U/gUDT0uHJfrUcjOnU6oVLuLUhKVqHA1Bd/&#13;
+j7mBo/kb0r76mm/8/o5YNGzJbwkK+9gAtqOEKn4bW7KLa8Zx3Lu5m80izC3Np7giE4+X7wd4cNrB&#13;
+N0Ar+BVcvd6ouuicBs2Zw/vpiX1b81FGWxOF+A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_36e42fa6-2816-49b4-b9c9-94c49ff66534" Target="#_bb0a3ff8-fa5a-4b88-ac39-aa4aafc39386"><Timestamp>2022-03-28 16:16:58</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

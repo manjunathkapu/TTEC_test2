@@ -1,0 +1,29 @@
+{
+  "itemId" : "_hvFx0KYfEey8lNFTp11arw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_rVJGEKYfEey8lNFTp11arw",
+    "parameterList" : [ {
+      "id" : "_rWei0KYfEey8lNFTp11arw",
+      "name" : "connection_Fred_Password"
+    }, {
+      "id" : "_rWei0aYfEey8lNFTp11arw",
+      "name" : "connection_Fred_Server"
+    }, {
+      "id" : "_rWei0qYfEey8lNFTp11arw",
+      "name" : "connection_Fred_Login"
+    }, {
+      "id" : "_rWei06YfEey8lNFTp11arw",
+      "name" : "connection_Fred_Database"
+    }, {
+      "id" : "_rWei1KYfEey8lNFTp11arw",
+      "name" : "connection_Fred_AdditionalParams"
+    }, {
+      "id" : "_rWei1aYfEey8lNFTp11arw",
+      "name" : "connection_Fred_Schema"
+    }, {
+      "id" : "_rWei1qYfEey8lNFTp11arw",
+      "name" : "connection_Fred_Port"
+    } ]
+  } ]
+}
