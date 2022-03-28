@@ -2773,11 +2773,7 @@
     "version" : "0.1",
     "type" : "job"
   },
-  "relatedItems" : [ {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
-  } ]
+  "relatedItems" : [ ]
 }, {
   "baseItem" : {
     "id" : "_mkMJIJE9Ed2rzeJvhcQ3Aw",
