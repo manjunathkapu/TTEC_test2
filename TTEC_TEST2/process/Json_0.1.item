@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:J7D0qxEvvhrEBpKpAW2i7+/yvtWXHuvatvirrmjO"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:iAWzxO5q7ovkgTcup22c+URojdP3p7Drjy8drnXk"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Bim/5ZbpAefLjTiNMchzGHBCRbW93FXt24MNRSVZ"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Xdtqkv0IqF+r1bq99g/ZrwDXGTVjtOrZeLja+E2U"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -484,7 +484,7 @@
       <column comment="" key="false" length="-1" name="YEAR" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_3"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/Json_source.txt&quot;"/>
@@ -563,7 +563,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="224">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_3"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -602,7 +602,7 @@
       <column comment="" key="false" length="-1" name="YEAR" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="224">
+  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="192">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputJSON_1"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/out.json&quot;"/>
     <elementParameter field="CHECK" name="GENERATE_JSON_ARRAY" value="true"/>
@@ -616,6 +616,130 @@
       <column comment="" key="false" length="-1" name="COMPANY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="PRICE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="YEAR" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="192" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_4"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/Json_source2.txt&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HEADER" value="0"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0"/>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Users/srmma/Downloads/TTEC_Talend-Studio-20211109_1610-V8.0.1/Talend-Studio-20211109_1610-V8.0.1/workspace&quot;"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="RANDOM" value="false"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false"/>
+    <elementParameter field="TABLE" name="TRIMSELECT">
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="street"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="city"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="zip"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="street"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="city"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
+      <elementValue elementRef="DECODE" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="zip"/>
+      <elementValue elementRef="DECODE" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value=""/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputDelimited_4">
+      <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="street" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="city" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="zip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="street" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="city" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="zip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_4"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="name"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="street"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="city"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="state"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="zip"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_4">
+      <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="street" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="city" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="zip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputJSON" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputJSON_2"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/out2.json&quot;"/>
+    <elementParameter field="CHECK" name="GENERATE_JSON_ARRAY" value="true"/>
+    <elementParameter field="TEXT" name="DATABLOCKNAME" show="false" value="&quot;Music&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputJSON_2">
+      <column comment="" key="false" length="-1" name="name" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="street" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="city" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="zip" nullable="true" originalLength="-1" precision="-1" sourceType="id_String" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tExtractXMLField_1">
@@ -673,13 +797,74 @@
       <elementValue elementRef="TRACE_COLUMN" value="COMPANY"/>
       <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zip"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="city"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="street"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="state"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tFileInputDelimited_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tLogRow_3" offsetLabelX="0" offsetLabelY="0" source="tLogRow_3" target="tFileOutputJSON_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tFileInputDelimited_4" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_4" target="tLogRow_4">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="ARTIST"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COUNTRY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PRICE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="YEAR"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="TITLE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="COMPANY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="zip"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="city"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="street"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="state"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
+  </connection>
+  <connection connectorName="FLOW" label="row10" lineStyle="0" metaname="tLogRow_4" offsetLabelX="0" offsetLabelY="0" source="tLogRow_4" target="tFileOutputJSON_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row10"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
@@ -696,13 +881,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4d68507f-2501-4799-a7a5-3d7d2f13ce75"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>rfnbFHgz9sWVVUoHl7NAvpjPon8ccPg5uy/EQHxP3uE0sr8tyeQHepEsSXqwXDk8vIifY8hQR2HX&#13;
-QRvOiCnAgQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0622d9ef-7c91-4452-b3e3-78b5293b8731"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>yJy8QkDa4+jMPzFx/BMuwJ5pNdWq1bQe229LTPJMXRUZb8VjaYRAprCS28NzWEqUghpHv17aBPt+&#13;
-WHuz5JUibw==</DigestValue></Reference></SignedInfo><SignatureValue>JXNddZFV8K5aoSXJzv1unEhNIupHaOiwdpj45CoEX4oLldtYFfL1toQ+EH/JOdeRzFOM9SsE7qid&#13;
-EImrLxpH+r4rVwNp6O23CslMF4g380bCUw9eorsdTG3zjMcr+Z+AAtZChT2aMnXZ2b6y46cwBCh9&#13;
-f9vdmDQVGvDlECmaItmQsqhDkPJAWU0Tx0JBtKiEj2glJO3Sf/vkmT9DzUVsj5ZbEu1gEcqntJhg&#13;
-rS8QT8Y6Y8jOHHRmS4cbCgSApOUYIjX9Sk7Q6zP4CjCAhsVMAyEJJmI6GxGVWiJ85oQeoTWFYVDj&#13;
-EfbNdM8dBTVWo226wsXej3ux3P1GmlCqQha0pQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_04614ed8-3bb3-477d-b9bb-ca0112c447ba"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>gT3RxshdyRA1HkhPtFs0IpepiCZmh+Bj4lj+KRYxgY6TbFB+E/Bz7jglnzzQvCGAAFdOnHjCWpZb&#13;
+1MUlOtvbuA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2db985cf-8689-448c-afcf-e99e8ab76522"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Lhe9K6eCmXkDFKKQvF3+mx/NXDniNXUKQB96lk9eZxYlkFwrTxcPwT+LmtQh6qRV3NpyRRYaQ10/&#13;
+QQYaLS4erw==</DigestValue></Reference></SignedInfo><SignatureValue>Xa/IEIHpgPB9vuAtUGD5R0ceKHdMrEx7GJT7pwUQ7IgzmbQLP4cvhRsx0nFV604muNDXpGd6zSm6&#13;
+WblVGNsI/E1Y+JumxdJTxFLvoLd8GmxMs3wj+RShXP6z77K6E8lr+9LATf+3unFzL7ffpNbVPAc9&#13;
+QkRCV+Un3T1bJ0uX1SxEMaiejeIDA2Wp0BzkT8pyp0FfMe6u69c/Kd7JcK+mKu8GjDOv8nLYMS5q&#13;
+fvHsqxBiZLTcSpcZtjX4CdXaWD5E/pqcW8abfhDnol6Xq40EFj9RqNarfywG3q5idlrN9hU3gK21&#13;
+eiFdOizZMxnG+Zi93KqiHezqCjQh10aG2nk6Yg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -724,4 +914,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0622d9ef-7c91-4452-b3e3-78b5293b8731" Target="#_4d68507f-2501-4799-a7a5-3d7d2f13ce75"><Timestamp>2022-03-31 16:19:25</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2db985cf-8689-448c-afcf-e99e8ab76522" Target="#_04614ed8-3bb3-477d-b9bb-ca0112c447ba"><Timestamp>2022-03-31 16:35:10</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
