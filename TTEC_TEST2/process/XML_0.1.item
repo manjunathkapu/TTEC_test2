@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default"/>
   <parameters>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
@@ -43,7 +43,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:ZRsTgK45mm1jlFpZ7OOfKWoH6okp+5VQbSRCGdh0"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:QXsE1R5fcuLZ2RlTXHBj6Byi1myySV2h4ossSJQL"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -78,7 +78,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:MxCdkTe9Ok+os7nOqR8NWw/x90Q5u62vIaxfhPTF"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:B2M/TxB6DC/Sug97c6iEvpnRikxCNkM4m6cAbWPm"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -265,7 +265,6 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/XML2.xml&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -319,7 +318,6 @@
   </node>
   <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="newColumn"/>
     <elementParameter field="CHECK" name="USE_ITEMS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY_BASE" show="false" value="&quot;&quot;"/>
@@ -369,7 +367,6 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
-    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -406,6 +403,7 @@
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
     <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/XML2.xml&quot;"/>
     <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
@@ -456,6 +454,7 @@
   </node>
   <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="newColumn"/>
     <elementParameter field="CHECK" name="USE_ITEMS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY_BASE" show="false" value="&quot;&quot;"/>
@@ -493,6 +492,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_4"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -520,6 +520,7 @@
   </node>
   <node componentName="tExtractXMLField" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tExtractXMLField_4"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="PREV_COLUMN_LIST" name="XMLFIELD" value="address"/>
     <elementParameter field="CHECK" name="USE_ITEMS" show="false" value="false"/>
     <elementParameter field="TEXT" name="LOOP_QUERY_BASE" show="false" value="&quot;&quot;"/>
@@ -569,6 +570,7 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="928" posY="352">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_3"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
@@ -602,6 +604,93 @@
       <column comment="" key="false" length="-1" name="state" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
       <column comment="" key="false" length="-1" name="zip" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Users/srmma/Desktop/XML2.xml&quot;"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="customers"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn1"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn2"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn3"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="newColumn4"/>
+      <elementValue elementRef="QUERY" value=""/>
+      <elementValue elementRef="NODECHECK" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;C:/Users/srmma/Downloads/TTEC_Talend-Studio-20211109_1610-V8.0.1/Talend-Studio-20211109_1610-V8.0.1/workspace/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileInputXML_1">
+      <column comment="" key="false" length="-1" name="customers" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn3" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn4" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" name="REJECT">
+      <column comment="" key="false" length="-1" name="customers" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn3" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn4" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="416" posY="480">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata label="out1" name="out1">
+      <column comment="" key="false" length="-1" name="customers" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row9">
+        <nodes name="customers" outgoingConnections="//@node.12/@nodeData/@connections.0" type="id_String" xpath="row9/customers"/>
+        <nodes name="newColumn" outgoingConnections="//@node.12/@nodeData/@connections.1" pattern="" type="id_String" xpath="row9/newColumn"/>
+        <nodes name="newColumn1" pattern="" type="id_String" xpath="row9/newColumn1"/>
+        <nodes name="newColumn2" pattern="" type="id_String" xpath="row9/newColumn2"/>
+        <nodes name="newColumn3" pattern="" type="id_String" xpath="row9/newColumn3"/>
+        <nodes name="newColumn4" pattern="" type="id_String" xpath="row9/newColumn4"/>
+      </inputTrees>
+      <outputTrees name="out1">
+        <nodes expression="row9.customers" incomingConnections="//@node.12/@nodeData/@connections.0" name="customers" type="id_String" xpath="out1/customers"/>
+        <nodes expression="row9.newColumn" incomingConnections="//@node.12/@nodeData/@connections.1" name="newColumn" pattern="" type="id_String" xpath="out1/newColumn"/>
+      </outputTrees>
+      <varTables minimized="true" name="Var"/>
+      <connections source="//@node.12/@nodeData/@inputTrees.0/@nodes.0" target="//@node.12/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.12/@nodeData/@inputTrees.0/@nodes.1" target="//@node.12/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
   </node>
   <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tExtractXMLField_1">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
@@ -650,7 +739,6 @@
   </connection>
   <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tFileInputDelimited_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_2" target="tExtractXMLField_2">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
   </connection>
   <connection connectorName="FLOW" label="row4" lineStyle="0" metaname="tExtractXMLField_2" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_2" target="tLogRow_2">
@@ -690,11 +778,11 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
   </connection>
   <connection connectorName="FLOW" label="row5" lineStyle="0" metaname="tFileInputDelimited_3" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_3" target="tExtractXMLField_3">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row5"/>
   </connection>
   <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tExtractXMLField_3" offsetLabelX="0" offsetLabelY="0" source="tExtractXMLField_3" target="tLogRow_4">
@@ -734,10 +822,12 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
   </connection>
   <connection connectorName="FLOW" label="row8" lineStyle="0" metaname="tLogRow_4" offsetLabelX="0" offsetLabelY="0" source="tLogRow_4" target="tExtractXMLField_4">
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row8"/>
   </connection>
   <connection connectorName="FLOW" label="row7" lineStyle="0" metaname="tExtractXMLField_4" offsetLabelX="-50" offsetLabelY="2" source="tExtractXMLField_4" target="tLogRow_3">
@@ -756,7 +846,12 @@
       <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
     </elementParameter>
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row7"/>
+  </connection>
+  <connection connectorName="FLOW" label="row9" lineStyle="0" metaname="tFileInputXML_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_1" target="tXMLMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row9"/>
   </connection>
   <subjob>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
@@ -773,13 +868,18 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_49fd689a-0c11-4b1a-bde4-6799733b8af6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>r1ayTVeSFg1tLMzKsU6BtXfzfczOFgpFyyUgu6MfqQILGhDg80rXNgPdxQYc5rwIFlwDYxqj/xFA&#13;
-E1Res8uiGQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a8e42625-725b-4efa-b0d9-253801e27329"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hkdjkjs9sUyZSOE7rWBuCRUIuHijQuUT0OD1QoEDTt5pAiBxyVvKgAvx0SQJ5LTRLwBZXDpSITVW&#13;
-u3gSQfSLnw==</DigestValue></Reference></SignedInfo><SignatureValue>M+ZMslHLaWVRr/Pfigh5gUFjpRFEJQsyFTtFFuYj0UN7vn+ioez3qPfhuuDMEsCfly9O5mCIm5Nz&#13;
-wb3K3VrKRlwxhjb+c3KJFEdazEzKiBjgzgmGfmtw9aNCWU+cXDaa6dKL0V5HOS9ornYyXZV+j4e9&#13;
-HTUzlEcLN7N7e+/JOQWIfdUIWbDQYuZ0e481ReSYHTOid0anqh9KU1bV/Z8Gd0wr52H6xTIDMqZa&#13;
-scOKrwt1W6PsZBoGDrsgkX6KTV743U15Vc7Sr5mzawmkpq91tSKjBKwu1ZGJX4wmIH3naETlVwGM&#13;
-07gDLjDsSE5F6UR8wcLIYUEoHcjZFdIu9PEdbw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f2d2ce89-5f58-4abb-ae5a-bf2ffbe18bf7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+hvayNxMe9aNZ+ERThmQRy3mkcrdyekkcrzFHubRmD6YTgoD9yxJ2SevN6nsaANYMERjmVQcQ0kb&#13;
+wSecZweo7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_094433ae-e05b-40b5-a48d-cfb6f7856caf"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>BMWWa6YFShOktHk1D5olTdjiDN4RauZsBwGOPItztJ3nYbr0S0UwJg2fwQOERFIxjkgV3T7hnfm6&#13;
+vhghQ23oDw==</DigestValue></Reference></SignedInfo><SignatureValue>hLwpTfMnwIJL0pgQW0E4mXCT+hrobOUqo5IJSsy04ZMInG4XxzejUbyjCPRAzNB7R2Ph1RKW3o+b&#13;
+p3DtN3ofIT/AqtGgjVBO6ia3r19PGb0JAhx8l2SKWw7miLOvDbBt1kx3i6ywtDh3Kg7Qgcu3xcRy&#13;
+B+EyDCPwyptiE1TQnpRjxYz4hfISqn/hWUmiDvpVxYviisyDQ7x9qYO0gc9xtObGbQ0KpcnsBREc&#13;
+4NH5ElnwC0l80nX1Hh2iOLPxdJxCsqwV/0cpBExKEY8IJRmY75CM8XY3D6Ygi8/W6/NfCI8hNMuR&#13;
+G97JtmkQy4kODNBl1jc5GLlT7XThn+H2JDr6pA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -801,4 +901,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a8e42625-725b-4efa-b0d9-253801e27329" Target="#_49fd689a-0c11-4b1a-bde4-6799733b8af6"><Timestamp>2022-03-31 14:39:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_094433ae-e05b-40b5-a48d-cfb6f7856caf" Target="#_f2d2ce89-5f58-4abb-ae5a-bf2ffbe18bf7"><Timestamp>2022-03-31 15:04:24</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
